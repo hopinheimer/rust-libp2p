@@ -1,4 +1,7 @@
 ## 0.49.0
+- switch the internal `async-channel` used to dispatch messages from `NetworkBehaviour` to the `ConnectionHandler`
+  with an internal priority queue. See [PR XXXX](https://github.com/libp2p/rust-libp2p/pull/XXXX)
+
 - Feature gate metrics related code. This changes some `Behaviour` constructor methods.
   See [PR 6020](https://github.com/libp2p/rust-libp2p/pull/6020)
 - Send IDONTWANT before Publishing a new message.
